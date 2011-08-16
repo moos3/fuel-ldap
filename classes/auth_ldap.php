@@ -1,8 +1,8 @@
 <?php
 
-namespace Auth;
+namespace Ldap;
 
-class Auth_Ldap extends \Auth_Login_Driver {
+class Auth_Ldap extends Auth\Auth_Login_Driver {
 	
 	public function __construct() {
 		\LDAP::load();
